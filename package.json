@@ -7,7 +7,7 @@
     "url": "git+https://github.com/hyejikng/wetube-reloaded.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "babel-node index.js"
   },
   "author": "Hyeji Kang(hyeji8842@gmail.com)",
   "license": "ISC",
@@ -17,5 +17,10 @@
   "homepage": "https://github.com/hyejikng/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5"
   }
 }
